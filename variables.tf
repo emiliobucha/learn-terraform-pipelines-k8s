@@ -12,6 +12,7 @@ variable "cluster_name" {
 
 variable "google_project" {
   type        = string
+  default     = "learn-terraform-pipelines-k8s"
   description = "Google Project to deploy cluster"
 }
 
